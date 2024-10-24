@@ -1,13 +1,10 @@
-# Welcome to your CDK TypeScript project
+# ECS Fargate Service Example
 
-This is a blank project for CDK development with TypeScript.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Deploying ECS fargate containers with AWS CDK v2 typescript.
 
 ## Useful commands
 
 * `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
 * `npm run test`    perform the jest unit tests
 * `npx cdk deploy`  deploy this stack to your default AWS account/region
 * `npx cdk diff`    compare deployed stack with current state
