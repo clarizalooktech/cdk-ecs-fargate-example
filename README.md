@@ -2,6 +2,8 @@
 
 Deploying ECS fargate containers with AWS CDK v2 typescript.
 
+![Example cdk synth ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/cdksynth.JPG)
+
 ## Useful commands
 
 * `npm run build`   compile typescript to js
