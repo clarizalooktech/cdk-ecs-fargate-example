@@ -6,7 +6,7 @@ Deploying ECS fargate containers with AWS CDK v2 typescript.
 
 ### File structure
 
-`/lib/ecs-construct-example-stack.ts` where the defined our stack
+`/lib/ecs-construct-example-stack.ts` where the defined stack is located
 
 #### Useful commands
 
