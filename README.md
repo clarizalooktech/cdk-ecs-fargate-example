@@ -10,15 +10,20 @@ Deploying ECS fargate containers with AWS CDK v2 typescript.
 `/lib/ecs-construct-example-stack.ts` where the defined stack is located
 
 #### Screehots
-1. ![Cdk synth json file ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/cdk_synth.json)
+1. Cdk synth json file
+https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/cdk_synth.json
 
-2. ![Example of the cdk synth ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/cdksynth.JPG)
+2. Example of the cdk synth 
+![Example of the cdk synth ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/cdksynth.JPG)
 
-3. ![Cdk Deploy ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/cdkdeploy.jpg)
+3. Cdk Deploy
+![Cdk Deploy ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/cdkdeploy.jpg)
 
-4. ![How it looks like in CloudFormation ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/how_it_looks_in_cloudformation_stack.jpg)
+4. How it looks like in CloudFormation
+![How it looks like in CloudFormation ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/how_it_looks_in_cloudformation_stack.jpg)
 
-5. ![How the ECS looked like ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/how_ecs_server_looks_inside_cluster.jpg)
+5. How the ECS looked like
+![How the ECS looked like ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/how_ecs_server_looks_inside_cluster.jpg)
 
 #### Useful commands
 
