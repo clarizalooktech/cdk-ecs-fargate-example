@@ -1,8 +1,8 @@
 # ECS Fargate Service Example
 
-Deploying ECS fargate containers with AWS CDK v2 typescript.
+Deploying ECS fargate container with AWS CDK v2 typescript.
 
-
+Deploy a fargate service having a nginx server container. The Ecs services passes information of the dynamo db to store the creation of messages and its id. 
 
 
 ### File structure
