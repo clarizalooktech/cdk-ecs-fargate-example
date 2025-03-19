@@ -106,6 +106,20 @@ This will:
 
  - Create necessary IAM roles & policies.
 
+
+### Use Cases for This Architecture
+1. Chat API Backend (Microservices)
+The ALB routes requests to the ECS Fargate tasks running Nginx.
+API calls interact with DynamoDB to store and retrieve data.
+Scales automatically based on demand
+A chat messaging API where users send and receive messages stored in DynamoDB.
+
+2. Serverless Web Application Backend
+A backend for a frontend (e.g., React, Angular, Vue.js)
+The frontend (React/Vue) calls the backend API deployed on Fargate.
+API endpoints handle user authentication,
+DynamoDB stores user data (profiles, settings, transactions).
+A dashboard analytics system fetching metrics from DynamoDB
 #### Screehots
 1. Cdk synth json file
 https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/cdk_synth.json
@@ -122,8 +136,4 @@ https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/cd
 5. How the ECS looked like
 ![How the ECS looked like ](https://github.com/clarizalooktech/cdk-ecs-fargate-example/blob/master/assets/how_ecs_server_looks_inside_cluster.jpg)
 
-#### Useful commands
 
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
